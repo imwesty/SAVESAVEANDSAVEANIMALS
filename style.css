@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color:#FFF2CC;   
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: #FFD68E;
+    color: #AC720C;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-size: 2.5rem;
+}
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 25% 35%;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    color: darkgoldenrod
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+h1 {
+    margin: 0;
+}
+#email{
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 550px;
+    font-family: "Jost", sans-serif;
+}
+button {
+    padding: 20px;
+    margin: 5px;
+    font-size: 1.25rem;
+    width: 270px;
+    height: 60px;
+    background-color: white;
+    font-family: "Jost", sans-serif;
+    border:#d4c3a7 2px solid;
+}
+.animal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.animal{
+    margin: 10px;
+    background-color: rgb(255, 223, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    padding: 11px;
+}
+.animal img{
+    width:60%;
+    height: auto;
+    border-radius: 10%;
+}
+.animal:hover{
+    background-color: #ffeccb;
+}
+a:hover{
+    color:#e9bb6d;
+}
+a:active{
+    color:#ff6f00;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(232, 232, 232);
+}
